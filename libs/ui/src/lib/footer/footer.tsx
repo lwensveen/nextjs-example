@@ -4,7 +4,11 @@ import styled from 'styled-components';
 export interface FooterProps {}
 
 const StyledFooter = styled.div`
-  color: pink;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid grey;
 `;
 
 export function Footer(props: FooterProps) {
